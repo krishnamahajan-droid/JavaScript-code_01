@@ -1,12 +1,4 @@
 
-import React,{Component, useState} from 'react'
-import React,{Component, useState, useEffect} from 'react'
-import style from '../css/Sample.module.css'
-import style1 from '../css/HomePage.module.css'
-// import styled from 'styled-components'
-import styled from '@emotion/styled'
-import { css } from '@emotion/react'
-import axios from 'axios'
 
 function Sample(props) {
     const [name,setName]=useState("Devendra")
